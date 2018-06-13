@@ -1,0 +1,17 @@
+name = "MicroAI"
+uid = "f56c55b4-1d5e-45b4-92b6-64398e75e23e"
+version = 1
+copyright = "SoftNoob"
+description = "Minimal AI implementation."
+author = "SoftNoob"
+url = ""
+icon = "/mods/MicroAI/bugfix.png"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = { }
+requiresNames = { }
+conflicts = { }
+before = { }
+after = { }
