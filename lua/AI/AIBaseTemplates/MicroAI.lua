@@ -27,14 +27,9 @@ BaseBuilderTemplate {
     
     FirstBaseFunction = function(aiBrain)
         local per = ScenarioInfo.ArmySetup[aiBrain.Name].AIPersonality
-        if not per then 
-            return 1, 'MicroAI'
+        if per == 'microai' or per == 'microaicheat' then
+            return 1000, 'MicroAI'
         end
-
-        if per != 'microai' then
-            return 1, 'MicroAI'
-        else
-            return 9000, 'MicroAI'
-        end
+        return -1
     end,
 }

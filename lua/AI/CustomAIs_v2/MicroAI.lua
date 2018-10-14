@@ -12,13 +12,13 @@ AI = {
 	AIList = {
 		{
 			key = 'microai',
-			name = 'MicroAI',
+			name = '<LOC MicroAI_0001>AI: Micro',
 		},
 	},
 	CheatAIList = {
 		{
 			key = 'microaicheat',
-			name = 'MicroAIx',
+			name = '<LOC MicroAI_0003>AIx: Micro',
 		},
 	},
 }

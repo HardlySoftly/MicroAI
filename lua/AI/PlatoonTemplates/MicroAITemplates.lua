@@ -12,6 +12,7 @@ PlatoonTemplate {
         { categories.MOBILE * categories.LAND - categories.EXPERIMENTAL - categories.ENGINEER, -- Type of units.
           2, -- Min number of units.
           20, -- Max number of units.
-          'attack', 'none' }, -- Not sure, probably doesn't matter.
+          'attack', -- platoon types: 'support', 'attack', 'scout',
+          'none' }, -- platoon move formations: 'None', 'AttackFormation', 'GrowthFormation',
     },
 }

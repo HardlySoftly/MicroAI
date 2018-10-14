@@ -1,11 +1,11 @@
 name = "MicroAI"
-uid = "f56c55b4-1d5e-45b4-92b6-64398e75e23e"
-version = 1
-copyright = "SoftNoob"
+uid = "f56c55b4-1d5e-45b4-92b6-64398e75e23f"
+version = 2
+copyright = "FreeWare"
 description = "Minimal AI implementation."
 author = "SoftNoob"
 url = "https://github.com/HardlySoftly/MicroAI"
-icon = "/mods/MicroAI/bugfix.png"
+icon = "/mods/MicroAI/MicroAI.jpg"
 selectable = true
 enabled = true
 exclusive = false
